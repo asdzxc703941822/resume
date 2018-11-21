@@ -1,0 +1,169 @@
+*{
+    padding:0;
+    margin:0;
+    font-family:arial;
+}
+.color_white{
+    color:#ffffff;
+}
+.font_size_sm{
+    font-size:13px;
+}
+a{
+    text-decoration:none;
+    color:#595959;
+    display: block;
+}
+li{
+    list-style-type:none;
+
+}
+#nav_wrap{
+    width:500px;
+}
+.container{
+    background:#000;
+}
+.wrap{
+    width:960px;
+    margin:0 auto;
+    position:relative;
+}
+
+.flex_row{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+.flex_column{
+    display:flex;
+    flex-flow: column;
+    justify-content: space-between;
+}
+input{
+    width:160px;
+    padding:10px ;
+
+}
+h3{
+    display: inline;
+    overflow: hidden;
+}
+#logo{
+    display: block;
+    width:100px;
+    height:57px;
+    margin-left: 16px;
+    text-indent:-1000px;
+    background:url("../img/header/sonyLogo20131220.jpg") no-repeat 0 center;
+}
+#globe{
+    margin-top:10px;
+    overflow:hidden;
+    text-indent:-1000px;
+}
+#globe a{
+    display:block;
+    width:150px;
+    height:24px;
+    background:url("../img/header/Grouplink_White_EN.png") no-repeat;
+    background-position-y:4px;
+}
+#globe a:hover{
+    background:url("../img/header/GroupLink_White_Hober_EN.png") no-repeat 0 4px;
+}
+#globe span{
+    width:48px;
+    height:24px;
+    margin-right:17px;
+    background:url("../img/header/sonychina_20131220_pic1.jpg") no-repeat;
+}
+#headernav{
+    width:100%;
+    height:48px;
+
+}
+#headernav_1 a.menu{
+    width:103px;
+    height:48px;
+    background: url("../img/header/sony_nav.gif");
+}
+#headernav_1 a.menu:hover{
+    background-position: 0 -48px;
+}
+#headernav_2 a.menu{
+    width:110px;
+    height:48px;
+    background: url("../img/header/sony_nav.gif") -103px 0;
+}
+#headernav_2 a.menu:hover{
+    background-position: -103px -48px;
+}
+#headernav_3 a.menu{
+    width:124px;
+    height:48px;
+    background: url("../img/header/sony_nav.gif") -213px 0;
+}
+#headernav_3 a.menu:hover{
+    background-position: -213px -48px;
+}
+#headernav_4 a.menu{
+    width:96px;
+    height:48px;
+    background: url("../img/header/sony_nav.gif") -337px 0;
+}
+#headernav_4 a.menu:hover{
+    background-position: -337px -48px;
+}
+#headernav_5 a.menu{
+    width:95px;
+    height:48px;
+    background: url("../img/header/sony_nav.gif") -433px 0;
+}
+#headernav_5 a.menu:hover{
+    background-position: -433px -48px;
+}
+#headernav_6 a.menu{
+    width:90px;
+    height:48px;
+    background: url("../img/header/sony_nav.gif") -528px 0;
+}
+#headernav_6 a.menu:hover{
+    background-position: -528px -48px;
+}
+#headsearch{
+    position:absolute;
+    top:58px;
+    right:13px;
+}
+#headsearch .search_box{
+    border:2px solid rgb(66,66,66);
+    border-right:0;
+    background: black;
+    width:138px;
+    height: 16px;
+    padding:10px;
+}
+#headsearch .search_box:focus{
+    background: white;
+    border-color:#ffffff;
+}
+#headsearch a{
+    width:40px;
+    height:26px;
+    padding:5px 0;
+    background:url("../img/header/searchBg.gif") no-repeat center
+    right;
+    border:2px solid rgb(66,66,66);
+    border-right: 0;
+    border-left: 0;
+    text-indent:-1000px;
+    overflow:hidden;
+    float: right;
+}
+#headsearch .focus{
+    background: url("../img/header/searchBg1.gif") no-repeat center
+    right;
+    border-color:#fff;
+    border-width:2px 0;
+}

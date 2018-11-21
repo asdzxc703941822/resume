@@ -1,0 +1,77 @@
+body{
+    font-size:12px;
+    line-height:18px;
+    color:#787878;
+}
+
+ a{
+	color: #fff;
+}
+li{
+	line-height: 24px;
+}
+ul{
+	padding-top: 18px;
+}
+#footer_detail{
+	background: #1f2024;
+	margin-top: 40px;
+	width:100%;
+	border-bottom: 1px solid #333438;
+}
+#footerDetail{
+    width:960px;
+	margin:0 auto;
+	padding:34px 0 43px 0;
+}
+.search_door ul li a{
+	color: #fff;
+	padding-right: 23px;
+	display: inline-block;
+	background: url(../img/footer/ooter_store_search.gif) right 2px no-repeat;
+}
+.sizelof3{
+	width: 33.3333%;
+}
+.sizelof3 ul li a:hover{
+	color:#50BCFD;
+}
+.online_service{
+	padding-top: 7px;
+	height: 36px;
+}
+.online_service a{
+	background: url(../img/footer/onlineservice_pic.jpg) no-repeat;
+    width:77px;	
+    height: 18px;
+    display: block;
+    margin-top: 5px;
+}
+.online_service a:hover{
+	background-position: 0 -18px;
+}
+.cath:hover{
+	color:#50BCFD;
+}
+.we_link{
+	width:142px;
+	height:40px;
+	display: block;
+	overflow: hidden;
+	text-indent:-2000px;
+
+}
+
+#web{
+	background:url("../img/footer/sony_china_weibo.gif");
+}
+#web:hover{
+	background-position: 0 -40px;
+}
+#wex{
+	background:url("../img/footer/sony_china_weixin.gif");
+	margin-top:5px;
+}
+#wex:hover{
+	background-position: 0 -40px;
+}

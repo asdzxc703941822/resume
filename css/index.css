@@ -1,0 +1,202 @@
+body{
+    font-size:12px;
+    line-height:18px;
+    color:#787878;
+}
+header{
+    height:105px;
+}
+#kv{
+    width:960px;
+    height:520px;
+    margin: 0 auto;
+    position:relative;
+}
+#kv img{
+    position:absolute;
+    top:0;
+    left:-120px;
+}
+/*横幅轮播*/
+#recommendBanner{
+    margin-top:42px;
+    position:relative;
+    width:100%;
+    overflow:hidden;
+}
+#recommendBanner .title{
+    width:940px;
+    margin:0 auto 22px;
+    padding:0 10px;
+    position:relative;
+}
+#recommendPage{
+    position:absolute;
+    right:8px;
+    top:-2px;
+}
+#recommendPage span{
+    width:28px;
+    height:28px;
+    display:inline-block;
+    background:url("../img/index/page.jpg") no-repeat -28px 0;
+    cursor:pointer;
+}
+
+#recommendPage span:hover{
+    background-position: -57px 0;
+}
+#recommendPage span.focus_bg{
+    background-position: 0 0;
+}
+#recommendBannerList{
+    width:960px;
+    margin:0 auto;
+    position:relative;
+    height:272px;
+}
+#recommendBannerList ul{
+    width:2880px;
+    position:absolute;
+    left:0;
+    top:0;
+    height:272px;
+    transition:all 1s linear;
+}
+#recommendBannerList ul li{
+    width:232px;
+}
+#recommendBannerList ul li:hover .detail span{
+    background-position: 0 0;
+}
+#recommendBannerList .detail{
+    background: #eff0f1;
+    height:100px;
+    font-size:14px;
+    font-weight: inherit;
+    position:relative;
+}
+#recommendBannerList ul li .detail p{
+    padding:14px 40px 15px 15px;
+    line-height: 20px;
+}
+#recommendBannerList ul li .detail span{
+    width:15px;
+    height:15px;
+    display:block;
+    position:absolute;
+    top:15px;
+    right:15px;
+    background: url("../img/index/icon_img_jiantou.gif") no-repeat 0 -21px;
+}
+.prevBtn{
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:60px;
+    left:-70px;
+    background:url("../img/index/buttonLeft.png") no-repeat;
+    z-index: 1;
+    display:none;
+}
+.nextBtn{
+    width:50px;
+    height:50px;
+    position:absolute;
+    top:60px;
+    right:-70px;
+    background:url("../img/index/buttonRight.png") no-repeat;
+    z-index: 1;
+    display:none;
+}
+#recommendBannerList:hover .prevBtn,#recommendBannerList:hover .nextBtn{
+    display: block;
+}
+.leftMark{
+    width:480px;
+    height: 10000px;
+    position:absolute;
+    left:-480px;
+    background: white;
+    opacity: .8;
+}
+.rightMark{
+    width:480px;
+    height: 10000px;
+    position:absolute;
+    right:-480px;
+    background: white;
+    opacity: .8;
+}
+
+/*内容*/
+.content{
+    width:1200px;
+    margin:0 auto;
+
+}
+.node{
+    margin-top:55px;
+    background: #f0f1f3;
+}
+.block960{
+    width:960px;
+    margin: 0 auto;
+}
+.index_media{
+    padding:40px 0 12px;
+}
+.index_media h2{
+    margin-bottom: 24px;
+    padding-left:15px;
+}
+.news_box1,.news_box2,.news_box3{
+    width:33.3333%;
+}
+.media{
+    margin-bottom: 8px;
+    margin-left: 4px;
+    height: 84px;
+    width: 315px;
+   }
+.media .img{
+    margin-right: 17px;
+}
+.media .bd span{
+  font-size: 9px;
+  background: #d0d1d3;
+  padding: 0 5px;
+  line-height: 18px;
+  color: #fff;
+    
+}
+.media .bd a{
+    padding-top: 5px;
+    padding-right: 27px;
+}
+.news_box1 #newsBtn a{
+    height: 40px;
+    width: 90px;
+    margin-left: 7px;
+    overflow: hidden;
+    text-indent: -1000px;
+    background: url(../img/index/tit_news_center.gif) no-repeat;
+}
+.news_box1 #newsBtn a:hover{
+    background-position: 0 -40px;
+}
+.list_img a{
+    height: 114px;
+    width: 152px;
+    overflow: hidden;
+    position: relative;
+}
+.list_img img{
+    position: absolute;
+    top:0;
+    left: 0;
+}
+.list_img a:hover img{
+   
+   top:-114px;
+}

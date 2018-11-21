@@ -1,0 +1,127 @@
+*{
+	padding: 0;
+	margin:0;
+}
+a{
+	text-decoration: none;
+    display: block;
+}
+li{
+	list-style:none;
+}
+.clearfix::after{
+   content: "";
+   display: block;
+   clear: both;
+}
+.wrap_one{
+	width:100%;
+}
+.wrap_one div{
+   width: 100%;
+   text-align: center;
+   background: #000;
+}
+.wrap_one h1{
+  margin:25px  0 25px 215px;
+}
+.wrap_two{
+  width:100%;
+  text-align: center;
+}
+.wrap_two p{
+  margin-top: 20px;
+  color: #6d6d78;
+  font-size: 17px;
+}
+.wrap_two p img{
+  width: 130px;
+}
+.wrap_two p:first-child{
+  margin:65px 0 50px;
+}
+.wrap_two p:last-child{
+  margin:50px 0 100px;
+}
+.wrap_three{
+  width:830px;
+  margin:0 auto;
+}
+.wrap_three .left ul li{
+  opacity: 0;
+  transform:translateY(20px);
+}
+.wrap_three .left ul li.show {
+  opacity: 1;
+  transform: translateY(0);
+  transition: all 1s ease;
+}
+.left{
+  float: left;
+}
+.left ul li a{
+  color: #656565;
+  font-size: 14px;
+  font-weight:bold; 
+  width: 162px;
+  padding-right: 238px;
+  position: relative;
+  background: #f1f5f9;
+  line-height: 0;
+  margin-bottom: 30px;
+}
+.left ul li a:hover{
+  background: #e8edf3;
+}
+.left ul li a span{
+  position: absolute;
+  top:75px;
+  left: 192px;
+}
+.wrap_four{
+  width:980px;
+  margin:70px auto 0;
+  border-top: 3px solid #e3e7eb;
+  border-bottom: 3px solid #e3e7eb; 
+}
+.inner{
+  width:830px;
+  margin:35px auto 55px;
+}
+.left ul li a p{
+  position: absolute;
+  top:45px;
+  left: 192px;
+}
+.company_msg{
+  width:400px;
+  float: left;
+  margin-right: 30px;
+}
+.company_msg h2{
+  font-size: 17px;
+  color: #2f353d;
+  margin-bottom: 18px;
+}
+.company_msg ul li a{
+  font-size: 12px;
+  color:#4471ed;
+  margin-bottom: 10px;
+}
+.company_msg ul li a:hover{
+  color: #3b4b73;
+}
+.inner ul li .sonyChina{
+  width:185px;
+  margin-left: 20px;
+  padding-bottom: 94px;
+  position: relative;
+  float: left;
+}
+.sonyChina p{
+  position: absolute;
+  top: 205px;
+  left: 20px;
+  color:#fff;
+  font-size: 14px;
+}

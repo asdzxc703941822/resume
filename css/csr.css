@@ -1,0 +1,194 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+li{
+	list-style: none;
+}
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}
+.nav{
+	width: 948px;
+	margin:15px auto 0; 
+	border: 1px solid #e4e4e4;
+}
+.nav ul li{ 
+	float: left;
+}
+.nav ul li a{
+	width:115px;
+	height: 35px;
+    background: url("../img/csr/menu.png") no-repeat;
+}
+#csr{
+	width: 100px;
+	background-position: 0 0;
+}
+#csr:hover{
+	background-position: 0 -34px;
+}
+#gszl{
+	
+	background-position: -99px 0;
+}
+#gszl:hover{
+	background-position: -99px -34px;
+}
+#zrgl{
+	
+	background-position: -212px 0;
+}
+#zrgl:hover{
+	background-position: -212px -34px;
+}
+#ygzr{
+	
+	background-position: -326px 0;
+}
+#ygzr:hover{
+	background-position: -326px -34px;
+}
+#cpzr{
+	
+	background-position: -440px 0;
+}
+#cpzr:hover{
+	background-position: -440px -34px;
+}
+#sqjy{
+	
+	background-position: -555px 0;
+}
+#sqjy:hover{
+	background-position: -555px -34px;
+}
+#hjzr{
+	
+	background-position: -670px 0;
+}
+#hjzr:hover{
+	background-position: -670px -34px;
+}
+#gczc{
+	
+	background-position: -785px 0;
+}
+#gczc:hover{
+	background-position: -785px -34px;
+}
+/*lunbo*/
+.banner{
+	width: 1000px;
+	height: 336px;
+	margin:15px auto;
+	overflow: hidden;
+	position: relative;
+}
+.img{
+		position:absolute;
+		width: 4000px;
+		font-size:0;
+		left: 0;
+}
+.list{
+	position: absolute;
+	left: 24px;
+	bottom: 0px;
+	z-index: 999;
+}
+.list a{
+    float: left;
+    line-height: 0;
+		color:#fff;
+		padding-top: 28px;
+		margin-bottom: 20px;
+		position:relative;
+		background: url("../img/csr/hb_num_li.gif") no-repeat 0 0;
+}
+.list a img{
+   margin: 0 3px;
+}
+.list a span{
+   font-size: 14px;
+   font-weight: bold;
+   line-height: 28px;
+   color:#fff;
+   position: absolute;
+   left: 36px;
+   top:2px;
+}
+.list a span:hover{
+	text-decoration: underline;
+}
+#list_two{
+	background-position: 0 -106px;
+}
+#list_three{
+	background-position: 0 -212px;
+}
+/*zhuyao*/
+.main{
+	width: 950px;
+	margin: 15px auto 0;
+}
+.main_box ul li{
+  padding: 10px 0 20px 0;
+  border-bottom:1px dotted #ccc;
+}
+.main_box ul li a{
+	color: #01498e;
+	font-size: 14px;
+	padding: 7px 0;
+}
+.main_box ul li a:hover{
+	text-decoration: underline;
+}
+.main_box ul li:first-child{
+    position: relative; 
+}
+.main_box ul li:first-child h2{
+	font-size: 20px;
+	font-weight: 200;
+}
+.main_box ul li:first-child a{
+	background: url("../img/csr/more2.gif") no-repeat;
+	position: absolute;
+	right:0;
+	width: 65px;
+	height:15px;
+}
+/**/
+.main_left{
+	float: left;
+	width: 450px;
+	height: 100px;
+	background: url("../img/csr/banner_m_csr-report_new.jpg");
+	position: relative;
+	margin-right:49px;
+}
+.main_left a{
+   width: 70px;
+   height:15px;
+   position: absolute;
+   top:75px;
+   left: 145px;
+}
+.main_left a:last-child{
+	width:120px;
+	left: 240px;
+}
+.main_right{
+	float: right;
+}
+.main_right a{
+	width: 450px;
+	height: 100px;
+	background: url("../img/csr/banner_m_tokyo.jpg");
+}

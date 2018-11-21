@@ -1,0 +1,260 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+a{
+	text-decoration: none;
+	display: block;
+}
+li{
+	list-style: none;
+}
+.right{
+	float: right;
+}
+.left{
+	float:left;
+}
+.clearfix::after{
+   content:"";
+   display: block;
+   clear: both;
+}
+/**/
+.top{
+	width: 100%;
+	background: #000;
+}
+.wp{
+	width:950px;
+	margin: 0 auto;
+}
+.top div a:first-child{
+	width:145px;
+	height: 65px;
+	background: url("../img/zp/bg.gif");
+}
+.top div a:last-child{
+	width:175px;
+	height: 65px;
+	background: url("../img/zp/bg.gif") -130px 0 ;
+}
+.nav{
+	width:948px;
+	margin: 0 auto;
+	margin-top:15px;
+	border: 1px solid #e4e4e4;
+	height: 35px;
+	background: url("../img/zp/index_nav.gif") -5px 0;
+	position: relative;
+	z-index: 1;
+}
+.nav ul li a{
+   width: 144px;
+   height: 35px;
+   float: left;
+   background: url("../img/zp/index_nav.gif") -2px 0;
+}
+#sy:hover{
+	background-position: -2px -35px;
+}
+#rssn{
+	background-position: -146px 0;
+}
+#rssn:hover{
+	background-position: -146px -35px;
+}
+#znxs{
+	background-position: -292px 0;
+}
+#znxs:hover{
+	background-position: -292px -35px;
+}
+#xypd{
+	background-position: -438px 0;
+}
+#xypd:hover{
+	background-position: -438px -35px;
+}
+#gzsn{
+	background-position: -584px 0;
+}
+#gzsn:hover{
+	background-position: -584px -35px;
+}
+/*lunbo*/
+.kv{
+	width:100%;
+	margin-top: -51px;
+	padding-top:66px;
+	background: url("../img/zp/kv_bg.png") no-repeat center 0; 
+	height: 305px;
+}
+.img{
+	line-height: 0;
+	position: relative;
+}
+.img img{
+	position: absolute;
+	opacity: 0;
+}
+.img img:first-child{
+    position: relative;
+	opacity: 1;
+}
+/*main*/
+.main{
+	margin-top: -90px;
+	position: relative;
+	z-index: 1;
+}
+.flex_box{
+	display: flex;
+	flex-flow: row nowrap;
+	justify-content: space-between;
+}
+.box{
+	width: 298px;
+	height: 315px;
+	border:1px solid #dbdbdb;
+	background: #fff;
+}
+.title{
+	width: 299px;
+	height: 61px;
+	border-bottom: 1px solid #dbdbdb;
+	background: url("../img/zp/index_main_title.png") no-repeat 0 0;
+}
+#b1_left{
+	padding: 10px 10px 60px;
+	line-height: 0;
+}
+#b1_left a{
+	width: 115px;
+	height: 28px;
+	margin-top: 9px;
+}
+#b1_left a:nth-child(2){
+	background: url("../img/zp/index_snln.png");
+}
+#b1_left a:nth-child(2):hover{
+	background-position: 0 -28px;
+}
+#b1_left a:nth-child(3){
+	background: url("../img/zp/index_bmjs.png");
+}
+#b1_left a:nth-child(3):hover{
+	background-position: 0 -28px;
+}
+#b1_right{
+   
+   width:150px;
+   padding: 7px 6px 10px 7px;
+}
+#b1_right p{
+    font-family: Arial, 宋体;
+	font-size: 12px;
+	line-height: 18px;
+	color:rgb(128,128,135);
+}
+.more{
+	width: 58px;
+	height: 23px;
+	background: url("../img/zp/index_more.png");
+}
+.more:hover{
+	background-position: 0 -23px;
+}
+/**/
+#LP{
+	background-position: 0 -60px;
+}
+#b2_bottom{
+	padding: 0 9px;
+}
+#b2_bottom ul li{
+	padding: 12px 5px 6px;
+	border-bottom:1px solid #dbdbdb;
+	font-size: 12px;
+	color:#808087;
+}
+#b2_bottom ul li img:last-child{
+	margin-right: 63px;
+}
+#b2_bottom ul li a{
+	color:#808087;
+}
+#b2_bottom ul li a:hover{
+	text-decoration: underline;
+}
+#b2_bottom ul li p{
+	margin-right: 40px;
+}
+#b2_bottom ul li:last-child p{
+	margin-right: 81px;
+}
+#search_more{
+	background: url("../img/zp/search_more.png"); 
+}
+#search_more:hover{
+	background-position: 0 -23px;
+}
+/**/
+#CS{
+   background-position: 0 -121px;
+}
+#b3_bottom{
+	padding: 6px 10px 4px;
+}
+#b3_bottom ul li{
+	margin-top: 4px;
+}
+#b3_bottom ul li>a{
+    width: 77px;
+    height: 55px;
+    border: 1px solid #bdbdbd;
+    padding: 7px;
+}
+#b3_bottom ul li>a img{
+	width: 100%;
+	display: block;
+}
+#b3_bottom ul li>div{
+	width: 170px;
+	line-height: 18px;
+	margin-left: 15px;
+	font-size: 12px;
+	font-family: arial;
+	color: rgb(128,128,135);
+}
+/*bottom*/
+.bottom{
+	padding-top: 27px;
+}
+#footer{
+    height: 45px;
+    border-top:1px solid #dbdbdb;
+    position:relative;
+	background: url("../img/zp/footer.png");
+}
+#footer a{
+	position: absolute;
+	top:14px;
+	height: 15px;
+}
+#footer a:nth-child(1){
+    width: 76px;
+    
+}
+#footer a:nth-child(2){
+    width: 45px;
+    left: 99px;
+}
+#footer a:nth-child(3){
+    width: 45px;
+    left: 175px;
+}
+#footer a:nth-child(4){
+    width: 100px;
+    right:245px;
+}
